@@ -1,0 +1,5 @@
+# Construire l'image
+docker build -t my-crawler .
+
+# Lancer le container
+docker run -it --rm my-crawler
